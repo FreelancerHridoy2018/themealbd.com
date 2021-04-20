@@ -1,0 +1,39 @@
+input.form-control.input-area {
+    background: #f8f7f5;
+    color: #989898;
+    font-size: 18px;
+}
+
+button.submit-btn {
+    padding: 19px 50px;
+    background: #f06c4e;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#main-food{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    margin-top: 50px ;
+}
+ 
+ 
+.each-food{
+    width: auto;
+    height: 290px;
+    background-color:white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.each-food >img {
+    width: 100%;
+}
+
+.each-food >h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
